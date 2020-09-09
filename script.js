@@ -24,6 +24,7 @@ function renderPlaces(places) {
                    
         let model = document.createElement('a-text');
         model.setAttribute('value', "AR on Darb");
+        model.setAttribute('scale', '0.5 0.5 0.5');
 
         scene.appendChild(model);
     });
