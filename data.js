@@ -1,8 +1,8 @@
 AFRAME.registerComponent('a-bustime', {
   schema: {
-    enabled: {default: true}
+    
   },
   init: function () {
-    alert("this is a test");
+    console.log("this is a test");
   }
 });
