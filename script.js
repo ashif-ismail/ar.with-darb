@@ -22,9 +22,8 @@ function renderPlaces(places) {
         let latitude = place.location.lat;
         let longitude = place.location.lng;
                    
-        let model = document.createElement('p');
-                   p.innerHTML = "ashif";
-        //model.setAttribute('value', "AR on Darb");
+        let model = document.createElement('a-text');
+        model.setAttribute('value', "AR on Darb");
         model.setAttribute('scale', '0.5 0.5 0.5');
 
         scene.appendChild(model);
