@@ -22,9 +22,9 @@ function renderPlaces(places) {
         let latitude = place.location.lat;
         let longitude = place.location.lng;
                    
-        let model = document.createElement('a-text');
+        let model = document.createElement('htmlembed');
         //model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
-        model.setAttribute('value', "Al Khor Street/DOT");
+       // model.setAttribute('value', "Al Khor Street/DOT");
         
         scene.appendChild(model);
                    
