@@ -23,7 +23,6 @@ function renderPlaces(places) {
         let longitude = place.location.lng;
                    
         let model = document.createElement('a-text');
-        model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
         model.setAttribute('value', "AR on Darb");
 
         scene.appendChild(model);
