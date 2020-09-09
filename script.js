@@ -24,6 +24,18 @@ function renderPlaces(places) {
                    
         let model = document.createElement('a-text');
         model.setAttribute('value', "Al Khor Street/DOT");
+                   
+        let model1 = document.createElement('a-text');
+        model1.setAttribute('value', "Al Khor Street/DOT");
+        let model2 = document.createElement('a-text');
+        model2.setAttribute('value', "Al Khor Street/DOT");
+        let model3 = document.createElement('a-text');
+        model3.setAttribute('value', "Al Khor Street/DOT");
+        let model4 = document.createElement('a-text');
+        model4.setAttribute('value', "Al Khor Street/DOT");
+        let model5 = document.createElement('a-text');
+        model5.setAttribute('value', "Al Khor Street/DOT");
+                   
 
         scene.appendChild(model);
     });
