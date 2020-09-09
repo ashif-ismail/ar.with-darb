@@ -38,5 +38,11 @@ function renderPlaces(places) {
                    
 
         scene.appendChild(model);
+        scene.appendChild(model1);
+        scene.appendChild(mode2);
+        scene.appendChild(model3);
+        scene.appendChild(model4);
+        scene.appendChild(model5);
+                   
     });
 }
