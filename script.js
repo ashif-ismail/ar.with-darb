@@ -31,6 +31,9 @@ function renderPlaces(places) {
                    
         let model = document.createElement('p');
                    model.innerHTML = "AR on DARB";
+        model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
+        model.setAttribute('title', "test");
+        model.setAttribute('scale', '15 15 15');
 
         model.addEventListener('loaded', () => {
             window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
