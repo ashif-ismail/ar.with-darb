@@ -15,14 +15,10 @@
 <script src="./script.js"></script>
 <script src="./data.js"></script>
 <body style='margin: 0; overflow: hidden;'>
-    <a-scene
-       vr-mode-ui="enabled: false"
-        embedded
-        arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
-        <a-camera gps-camera rotation-reader>
-        </a-camera>
-        <a-entity id="main" class="screen dark main" htmlembed="ppu:256" position="0 2.5 -5">
-             <h1>A-Frame HTML Embed Component</h1>
-             </a-entity>
+    <a-scene>
+        <a-entity htmlembed position="0 0 -5">
+          <h1>An Example</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </a-entity>
     </a-scene>
 </body>
