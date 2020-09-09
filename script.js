@@ -6,10 +6,10 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Magnemite',
+            name: 'Al Khor Street/DOT',
             location: {
-                lat: 24.4135978,
-                lng: 54.4918734,
+                lat: 24.4126,
+                lng: 54.4923,
             }
         },
     ];
