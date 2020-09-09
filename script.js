@@ -22,27 +22,10 @@ function renderPlaces(places) {
         let latitude = place.location.lat;
         let longitude = place.location.lng;
                    
-        let model = document.createElement('a-text');
-        model.setAttribute('value', "Al Khor Street/DOT");
-                   
-        let model1 = document.createElement('a-text');
-        model1.setAttribute('value', "Al Khor Street/DOT");
-        let model2 = document.createElement('a-text');
-        model2.setAttribute('value', "Al Khor Street/DOT");
-        let model3 = document.createElement('a-text');
-        model3.setAttribute('value', "Al Khor Street/DOT");
-        let model4 = document.createElement('a-text');
-        model4.setAttribute('value', "Al Khor Street/DOT");
-        let model5 = document.createElement('a-text');
-        model5.setAttribute('value', "Al Khor Street/DOT");
-                   
+        let model = document.createElement('a-bustime');
+        //model.setAttribute('value', "Al Khor Street/DOT");
 
         scene.appendChild(model);
-        scene.appendChild(model1);
-        scene.appendChild(model2);
-        scene.appendChild(model3);
-        scene.appendChild(model4);
-        scene.appendChild(model5);
                    
     });
 }
