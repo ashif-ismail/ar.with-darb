@@ -24,7 +24,7 @@ function renderPlaces(places) {
                    
         let model = document.createElement('a-text');
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
-        model.setAttribute('title', "ASHIF");
+        model.setAttribute('value', "AR on Darb");
 
         scene.appendChild(model);
     });
