@@ -29,7 +29,7 @@ function renderPlaces(places) {
 //        model.setAttribute('animation-mixer', '');
 //        model.setAttribute('scale', '0.5 0.5 0.5');
                    
-        let model = document.createElement('p');
+        let model = document.createElement('a-link');
                    model.innerHTML = "AR on DARB";
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
         model.setAttribute('title', "test");
