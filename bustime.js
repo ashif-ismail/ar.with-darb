@@ -57,13 +57,15 @@ AFRAME.registerComponent('a-bustime', {
 
                 const statusText = document.createElement('span');
                 statusText.id = "statusText"
-                statusText.style.cssText = 'font-size: 24px;';
-                statusText.innerText = " LIVE";
+                statusText.style.cssText = 'font-size: 24px;background-color:#000;';
+                statusText.innerText = "  LIVE  ";
                 containerDiv.appendChild(statusText);
 
                 const br = document.createElement('br');
                 containerDiv.appendChild(br);
             }
+                const br = document.createElement('br');
+                containerDiv.appendChild(br);
         });
 
     }
